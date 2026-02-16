@@ -99,4 +99,20 @@ body {
   margin: 2em;
 }
 
-/*# sourceMappingURL=index.css.map */
+.back-to-summary {
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 1em;
+}
+
+.back-to-summary a {
+  color: #2793c5;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9em;
+  transition: opacity 0.2s ease;
+}
+
+.back-to-summary a:hover {
+  opacity: 0.7;
+}
