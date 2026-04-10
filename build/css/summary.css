@@ -271,9 +271,18 @@ a.tag.accent:hover {
   flex-wrap: wrap;
 }
 .card-titles .company {
-  font-weight: 500;
-  font-size: 0.9em;
+  font-weight: 800;
+  font-size: 1.1em;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+.card-titles a.company:hover {
   color: #2793c5;
+}
+.card-titles .position {
+  font-weight: 400;
+  font-size: 0.88em;
+  color: #555;
 }
 
 .seniority {
