@@ -331,9 +331,20 @@ a.tag {
     }
 
     .company {
-        font-weight: 500;
-        font-size: 0.9em;
+        font-weight: 800;
+        font-size: 1.1em;
+        color: $text;
+        text-decoration: none;
+    }
+
+    a.company:hover {
         color: $accent;
+    }
+
+    .position {
+        font-weight: 400;
+        font-size: 0.88em;
+        color: $text-light;
     }
 }
 

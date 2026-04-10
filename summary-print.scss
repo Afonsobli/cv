@@ -301,9 +301,16 @@ a.tag {
     }
 
     .company {
-        font-weight: 500;
-        font-size: 8pt;
-        color: $accent;
+        font-weight: 800;
+        font-size: 10pt;
+        color: $text;
+        text-decoration: none;
+    }
+
+    .position {
+        font-weight: 400;
+        font-size: 7.5pt;
+        color: $text-light;
     }
 }
 
